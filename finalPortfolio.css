@@ -1,0 +1,245 @@
+
+    html,body
+    {
+        overflow-x: hidden;
+    }
+
+    /* ============ navbar ===============*/
+
+    .flex-container 
+    {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .right { 
+        float: left; 
+        width: 300px; 
+        padding: 1px; 
+        padding-top: 50px;
+    } 
+
+    .spacer
+    {
+        width: 400px;
+    }
+
+    .flex-container > div 
+    {
+        margin: 5px;
+        padding-top: 10px;
+        padding-right: 15px;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+ 
+    a:link {
+        color: white; 
+        background-color: transparent; 
+        text-decoration: none!important;
+      }
+
+     a:visited {
+        color: white;
+        text-decoration: none!important;
+        background-color: transparent;
+      }
+     
+      a:hover 
+      {
+        color: white;
+        text-decoration: none!important;
+      }
+      
+      a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: none!important;
+      }
+      
+/* ============ hero page ===============*/
+#home
+   {
+       height: 100vh;
+       display: flex;
+       align-items: center;
+       overflow: hidden;
+       text-align: center;
+   }
+
+.container
+{
+    display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box5
+{
+    flex: 2;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* ============ cards page ===============*/
+
+
+
+.title_container
+{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+
+
+.box10,.box11
+{
+    width: 32%;
+    padding-top: 25px;
+    padding-bottom: 32%; /* Same as width, sets height */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    color: #015871;
+}
+
+.box12
+{
+    padding-left: 60px;
+}
+
+
+/* ============ projects page ===============*/
+
+#designs
+   {
+       height: 75vh;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       position: relative;
+   }
+
+   .box7
+   {
+        padding-top: 100px;
+        margin-bottom: 32%;
+        padding-bottom: 10px;
+        margin-bottom:32%;
+        padding-left: 100px;
+        flex: 1; 
+        align-items: center;
+        color: white;
+   }
+
+   .box6
+   {
+        padding-left: 60px;
+        flex: 1; 
+        align-items: center;
+        color: white;
+        padding-top: 100px;
+   }
+
+
+
+
+
+/* ============ games ===============*/
+
+.boxgameOne
+   {
+    padding-left: 75px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 400px;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   }
+
+   .boxgameTwo
+   {
+    padding-left: 75px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 400px;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   }
+
+
+   .boxgameThree
+   {
+    padding-left: 75px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 400px;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   }
+
+   .box9
+   {
+    padding-left: 60px;
+    size: 25px;
+    color:white;
+   }
+
+/* ============ about ===============*/
+
+
+.footer 
+{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#015871;
+    color: white;
+    text-align: center;
+}
+/* ============ waves ===============*/
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #015871, #ee7752, #015871, #e73c7e);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
