@@ -2,7 +2,21 @@
     html,body
     {
         overflow-x: hidden;
+        scroll-behavior: smooth;
     }
+
+    h1,h2,a
+    {
+        color: white;
+    }
+
+    p,h5
+    {
+        color: black;
+       
+    }
+
+
 
     /* ============ navbar ===============*/
 
@@ -79,6 +93,7 @@
   height: 100vh;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
 }
 
 .box5
@@ -86,13 +101,28 @@
     flex: 2;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
+    padding-top: 125px;
+    padding-bottom: 125px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     color: white;
 }
+
+
+.downButtonBox
+{
+    flex:2;    
+    text-align: center;
+    animation: hideMe 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+}
+
+
+
 
 /* ============ cards page ===============*/
 
@@ -111,15 +141,17 @@
 .box10,.box11
 {
     width: 32%;
-    padding-top: 25px;
+    padding-top: 100px;
     padding-bottom: 32%; /* Same as width, sets height */
     margin-bottom: 2%; /* (100-32*3)/2 */
     color: #015871;
+    align-items: center;
+    justify-content: center;
 }
 
 .box12
 {
-    padding-left: 60px;
+    padding-left: 75px;
 }
 
 
@@ -127,7 +159,7 @@
 
 #designs
    {
-       height: 75vh;
+       height: 20vh; 
        display: flex;
        align-items: center;
        text-align: center;
@@ -136,7 +168,7 @@
 
    .box7
    {
-        padding-top: 100px;
+        padding-top: 50px;
         margin-bottom: 32%;
         padding-bottom: 10px;
         margin-bottom:32%;
@@ -152,7 +184,7 @@
         flex: 1; 
         align-items: center;
         color: white;
-        padding-top: 100px;
+        padding-top: 25px;
    }
 
 
@@ -164,9 +196,9 @@
 .boxgameOne
    {
     padding-left: 75px;
-    padding-top: 100px;
+    padding-top: 25px;
     padding-right: 50px;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
     flex: 2;
     align-items: center;
     justify-content: center;
@@ -176,9 +208,9 @@
    .boxgameTwo
    {
     padding-left: 75px;
-    padding-top: 100px;
+    padding-top: 25px;
     padding-right: 50px;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
     flex: 2;
     align-items: center;
     justify-content: center;
@@ -189,9 +221,9 @@
    .boxgameThree
    {
     padding-left: 75px;
-    padding-top: 100px;
+    padding-top: 25px;
     padding-right: 50px;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
     flex: 2;
     align-items: center;
     justify-content: center;
@@ -200,6 +232,7 @@
 
    .box9
    {
+    padding-top: 25px; 
     padding-left: 60px;
     size: 25px;
     color:white;
@@ -211,7 +244,7 @@
 .footer 
 {
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 100px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -243,3 +276,28 @@ html, body {
           background-position: 0% 50%;
       }
   }
+
+/* ============ smmoth scrolling ===============*/
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+/* ================downButtonBox fade in animation ============= */
+  @keyframes hideMe {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.25
+    }
+    75% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+/* STARTS TO CONNECT WITH Jquery FROM HERE TEXT FADE IN ANIMATION*/
