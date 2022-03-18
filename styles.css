@@ -84,7 +84,7 @@ body, html {
   flex-basis: 100px;
   padding: 10px;
   justify-content: space-between;
-  position: relative;
+  position:absolute; 
 }
 
 
