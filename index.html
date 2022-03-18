@@ -1,156 +1,202 @@
-
 <!DOCTYPE html>
 <html>
-    <head>    
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
- 
-        <!-- Latest compiled and minified CSS -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
 
 
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<head>
+    <!-- FONTS-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Antic&family=Rock+3D&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Antic&family=Rock+3D&family=Saira+Condensed:wght@100&display=swap"
+        rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
 
-        <link rel="stylesheet" href='./styles.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-        
-    </head>
+    <link rel="stylesheet" href='./styles.scss'>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
+    <!-- Code by Angela Delise 
+        https://codepen.io/angeladelise/pen/yLYPyMq -->
+</head>
+<body>
 
-    <body>
-        <!-- navbar -->
-        <nav>
-            <div class="w3-container w3-center w3-animate-top">
-                <div class="flex-container">
-                    <div class="box1">
-                            <div class="nav"> <h1 style="font-size: 30px; color: black;font-family: 'Times New Roman', Times, serif;" >Rama Venkataraman</h1>  </div>
-                    </div>
+    <!--navbar -->
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="Logo">Rama Venkataraman</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="btn btn-primary" role="button" style="color:#FEFEFE" onclick="window.open('Resume_Rama_UX.pdf')">Resume</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Section One-->
+    <section class="sectionOne">
+        <div class="background"></div>
+        <div class="background-texture"></div>
+        <header class="header">
+            <div class="left-content">
+                <h1>Hi, I'm Rama Venkataraman</h1>
+                <p class="para">
+                <h2>
+                    San Jose based Web Dev and UX Designer who cares about the design space.
+                    He is focused on UX research, and strives to make the design space better
+                    through user experience, as user experience is everything.
+                </h2>
+                </p>
+            </div>
+    </section>
+
+    <!--Section Two-->
+    <section class="sectionTwo">
+
+        <h3>Graphics I've worked On</h3>
+        <div class="float-container">
+
+            <div class="float-child">
+
+                <div class="left">
+                    <img src="Rect1.png">
                 </div>
             </div>
-        </nav>
+
+            <div class="float-child">
+                <div class="right">
+                    <h2>I enjoy working building graphics in my free time and for others using photoshop and other
+                        various photo editing software. </h2>
 
 
-        
-
-        <!-- home/hero page -->
-        <section class="title">
-            <p class="name">
-                Rama Venkataraman
-            </p>
-        </section>
-
-
+                        <section class="_BUTTON-SPACER">
+                            <h1></h1>
+                        </section>
 
 
 
-
-
-
-        <section class="home">
-            <div class ="boxIntro">
-                <p class="content1" style="text-align: center;">San Jose based <i>Game Dev and UX Designer</i>
-                    who cares about the design space. He is focused on UX research,
-                    and strives to make the design space better through user experience, as user 
-                    experience is everything.
-                    </p>                
-            </div>
-        </section>
-
-
-        <!--main section-->
-        <section class="main">
-            <div class="flexContainer">
-
-                <div class="box">
-                    
-                    <div class="content">
-                        <a href="games.png" target="_blank"></a>
-                            <div class="content-overlay"></div>
-                            <img class="content-image" src="games.png">
-                            <div class="content-details fadeIn-bottom">
-                                <h3 class="content-title">Mobile Games</h3>
-                                <p class="content-text">Ios Games I built in my free time</p>
-                                <a class="btn btn-primary" href="https://ramav245.github.io/GamesWebsite/" role="button">Learn more</a>
-                            </div>
-                        </a>
-                    </div>
+                        <a class="btn btn-primary" href="https://lightroom.adobe.com/shares/9047b8d199124cd2b69890564b7820c6" role="button">Learn More</a>
                 </div>
+            </div>
+        </div>
+    </section>
 
 
-                <div class="box">
-                    <div class="content">
-                        <a href="pics.png" target="_blank">
-                            <div class="content-overlay"></div>
-                            <img class="content-image" src="pics.png">
-                            <div class="content-details fadeIn-bottom">
-                                <h3 class="content-title">Projects</h3>
-                                <p class="content-text">Projects I worked on for vaious organizations.</p>
-                                <a class="btn btn-primary" href="https://lightroom.adobe.com/shares/9047b8d199124cd2b69890564b7820c6" role="button">Learn more</a>
-                            </div>
-                        </a>
-                    </div>
-                  </div>
+    <section class="_BIG-SPACER">
+        <h1></h1>
+    </section>
+
+
+
+    <!--Section Two-->
+    <section class="sectionThree">
+
+        <h3>Case Studies I’ve worked on</h3>
+        <div class="float-container2">
+
+            <div class="float-child2">
+                <div class="left2">
+                    <img src="Rect2.png">
+                </div>
             </div>
 
-
-
-            <div class="flexContainer">
-                <div class="box">
-                    <div class="content" style="max-height: 500px;">
-                        <a href="case.png">
-                            <div class="content-overlay"></div>
-                            <img class="content-image" src="case.png">
-                            <div class="content-details fadeIn-bottom">
-                                <h3 class="content-title">Case Studies</h3>
-                                <p class="content-text">Case Studies I worked on. </p>
-                                <a class="btn btn-primary" href="https://drive.google.com/drive/folders/19SPUQAYqTJOtfb9E2iqBVjx8T7rmnH5Q?usp=sharing" role="button" style="color:black">Immerse Travel App</a>
-                                <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1fZQNzABNx6gWtgWIpPG8uB3uCBPIn1-P?usp=sharing" role="button" style="color:black">FurtnitX</a>
-                            </div>
-                        </a>
-                    </div>
+            <div class="float-child2">
+                <div class="right2">
+                    <h2>Google Data Analytics Cyclistic Case Study</h2>
+                    <section class="_BUTTON-SPACER">
+                        <h1></h1>
+                    </section>
+                    <a class="btn btn-primary" href="https://lightroom.adobe.com/shares/9047b8d199124cd2b69890564b7820c6" role="button">Learn more</a>
+            
                 </div>
-
-
-                <div class="box">
-                    <div class="content"> 
-                        <a href="resume.png" target="_blank">
-                            <div class="content-overlay"></div>
-                            <img class="content-image" src="resume.png">
-                            <div class="content-details fadeIn-bottom">
-                                <h3 class="content-title">Resume</h3>
-                                <a class="btn btn-primary" role="button" style="color:black" onclick="window.open('RESUME_RAMA.pdf')">Download!</a>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-
             </div>
+        </div>
+    </section>
+
+    <section class="_SMALL-SPACER">
+        <h1></h1>
+    </section>
+
+ <!--Section Three-->
+ <section class="sectionFour">
+    <div class="float-container2">
+
+        <div class="float-child2">
+            <div class="left2">
+                <img src="Rect2.png">
+            </div>
+        </div>
+
+        <div class="float-child2">
+            <div class="right2">
+                <h2>Google Data Analytics Cyclistic Case Study</h2>
+
+                <section class="_BUTTON-SPACER">
+                    <h1></h1>
+                </section>
+                <a class="btn btn-primary" href="https://lightroom.adobe.com/shares/9047b8d199124cd2b69890564b7820c6" role="button">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--Section Three-->
+ <section class="sectionFive">
+    <div class="float-container2">
+
+        <div class="float-child2">
+            <div class="left2">
+                <img src="Rect2.png">
+            </div>
+        </div>
+
+        <div class="float-child2">
+            <div class="right2">
+                <h2>Google Data Analytics Cyclistic Case Study</h2>
+                <section class="_BUTTON-SPACER">
+                    <h1></h1>
+                </section>
+                <a class="btn btn-primary" href="https://lightroom.adobe.com/shares/9047b8d199124cd2b69890564b7820c6" role="button">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="_BIG-SPACER">
+        <h1> </h1>
+    </section>
 
 
-
-        </section>
-        
 
         <!-- footer -->
 
 
 
-                <div class="footer">
-                    <h1 style="font-family: 'Times New Roman', Times, serif;">Lets Connect</h1>
-                    <p style="color:#264653;">Feel free to text me at 408-834-5688</p>
-              </div>
+        <div class="footer">
+            <h3 style="color: #241D1D;font-size: 5rem;">Lets Work Toegether!</h3>
+            <p style="color: #241D1D; font-size: 3rem;">contact me at rama.ayyer@gmail.com</p>
+      </div>
+
+
+    
 
 
 
@@ -158,20 +204,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
+</body>
 
 </html>
