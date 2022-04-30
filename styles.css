@@ -20,7 +20,7 @@
 }
 
 body, html {
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #FEFEFE;
 }
 
@@ -55,7 +55,7 @@ body, html {
 }
 
 .btn-primary {
-  font-family: 'Antic', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
   background: var(--clr-primary);
   border: none;
@@ -86,19 +86,20 @@ body, html {
   padding: 10px;
   justify-content: space-between;
   position: relative; 
+  padding-top: 200px;
 }
 
 .right-content
 {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-left: 150px;
   padding-right: 150px;  
 }
 
 /*header*/
 h1 {
-  font-size: 8rem;
-  font-family: 'Saira Condensed', sans-serif;
+  font-size: 6.5rem;
+  font-family: 'Roboto', sans-serif;
   color: #241D1D;
 }
 
@@ -107,21 +108,21 @@ h1 {
 /*header paragraph*/
 h2{
   font-size: 2rem;
-  font-family: 'Antic', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #241D1D;
 }
 
 h3
 {
   font-size: 3rem;
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #241D1D;
 }
 
 h4
 {
   font-size: 5rem;
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #241D1D;
 }
 
@@ -154,7 +155,7 @@ h4
 .footer
 {
   margin-top: 150px;
-    padding-top: 75px;
+    padding-top: 100px;
     padding-bottom: 50px;
     width: 100%;
     background-color:#D0E0E5;
